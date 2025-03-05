@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина | Тестовый магазин</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Корзина</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="catalog.html">Каталог</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cart-items" class="cart-list">
+            <!-- Здесь будут товары, добавленные в корзину -->
+        </section>
+
+        <section class="cart-summary">
+            <h2>Итого: <span id="total-price">0</span> ₽</h2>
+            <button id="checkout">Оформить заказ</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Тестовый магазин</p>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
